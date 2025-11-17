@@ -1,5 +1,9 @@
 const calendar = document.getElementById('calendar')
 
+document.addEventListener("click", () => {
+    document.getElementById("music").muted = false;
+});
+
 const links= {
     1: 'https://youtu.be/s4Hae8bQDts?si=tSO2TFUHcqqsnywC',                 // Video
     2: 'https://metamorphus.de/weihnachtsmarkt/', // Weihnachtsmarkt
