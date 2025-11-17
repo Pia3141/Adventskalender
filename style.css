@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('https://cdn.pixabay.com/photo/2022/12/05/13/14/christmas-village-7636756_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3vw;
+    margin: 20px;
+}
+
+.door {
+    height: 9vw;
+    border: 2px outset #ab7200c2;
+    box-shadow: 0px 0px 15px 6px #ffe6b4e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffbf00;
+    text-shadow: 3px 3px #ab7200;
+    background-color: #001d1d24;
+
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: auto;
+        overflow: hidden;
+    }
+    #calendar {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 20px;
+    }
+    .door{
+        width: 20vw;
+        height: 20vw;
+        font-size: 2.5em;
+    }
+}
+
