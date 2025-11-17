@@ -42,7 +42,7 @@ let link = (e) =>{
     let id = e.target.id;
     let link = links[id];
     let today = new Date();
-    let open = new Date(year=2025, month=10-1, day=id);
+    let open = new Date(year=2025, month=12-1, day=id);
     console.log('date:' ,today);
     console.log('opens:', open)
     if (open <= today){
