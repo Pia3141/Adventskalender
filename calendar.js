@@ -14,7 +14,7 @@ const links= {
     7: 'https://youtu.be/IFZqDcFU4Ow?si=NM0juosvnQV-tfTm', // Musik
     8: 'https://www.zuckerjagdwurst.com/de/rezepte/vegane-entenkeulen-mit-kloessen-und-rotkraut', //Rezept
     9: 'https://www.archdaily.com/tag/top100/', //Architektur
-    10: 'https://youtu.be/tU2GXvERtkk?si=Hjryr6OeJt85ipNe', // Basteln
+    10: 'https://youtu.be/zQ4ET3LPUm0?si=gBW055t5Sa--yNeo', // Basteln
     11: 'https://messenger.abeto.co/',  // Spiel   
     12: 'https://www.einfachbacken.de/rezepte/zimtsterne-klassisches-rezept', //süß
     13: 'https://murdle.com/',  // Rätsel
