@@ -4,7 +4,7 @@ const links= {
     1: 'https://youtu.be/s4Hae8bQDts?si=tSO2TFUHcqqsnywC',                 // Video
     2: 'https://metamorphus.de/weihnachtsmarkt/', // Weihnachtsmarkt
     3: 'https://open.spotify.com/playlist/0DJ1MAN0lTZhYSaXHJ8ksX?si=1fcNX4hrQ5m0d0CbucpuGQ', // Playlist
-    4: 'https://neal.fun/absurd-trolley-problems/', //Spiel
+    4: 'https://neal.fun/password-game/', //Spiel
     5: 'https://diycarinchen.de/2019/12/rezept-super-leckere-spekulatiuscreme-selber-machen-perfektes-weihnachtsgeschenk/', // Süß
     6: 'https://www.buzzfeed.com/laughingduck465/plan-your-perfect-christmas-day-and-ill-tell-you', // Quiz
     7: 'https://youtu.be/IFZqDcFU4Ow?si=NM0juosvnQV-tfTm', // Musik
