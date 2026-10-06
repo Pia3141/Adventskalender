@@ -14,7 +14,7 @@ body{
     min-height: 100vh;
     width:100%;
 
-    background: url('https://pixabay.com/de/images/download/tylijura-ai-generated-8374993_1920.png');
+    background-color:blue;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -57,6 +57,8 @@ body{
 @media (max-width: 600px) {
     body{
         overflow-y: auto;
+        background: url('https://www.magnific.com/free-vector/gold-stars-with-snowflake_11564077.htm#fromView=search&page=1&position=36&uuid=e6e528a9-9de0-477e-ba93-eed0f2bae6a6&track=ais_hybrid&query=Christmas+phone+wallpaper');
+        background-size: cover;
     }
     #calendar {
         grid-template-columns: repeat(3, 1fr);
