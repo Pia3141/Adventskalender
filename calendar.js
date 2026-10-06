@@ -44,7 +44,14 @@ let link = (e) =>{
     console.log('opens:', open);
     if (open <= today){
         if (id in links){
-             window.location.href = link;
+            // open in new tab if on laptop
+            if (window.innerWidth > 800){
+             window.open(link, "_blank");
+            }
+            else{
+             window.location.href = link;   
+            }
+            // no new tab on phone (they sum up to quickly anyways)
         }
     }
 }
